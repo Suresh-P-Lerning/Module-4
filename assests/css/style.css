@@ -25,3 +25,7 @@ li>a{
     text-align: justify;
     width: 500px;
 }
+form>label{
+    display: block;
+    margin-bottom: 10px;
+}
