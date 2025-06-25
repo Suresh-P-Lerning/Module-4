@@ -1,0 +1,27 @@
+nav>ul>li{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(23, 22, 56);    
+}
+li>a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+.newsArticleHead>h1{
+    font-size: 45px;
+}
+.newsArticleHead>figure>img{
+    width: 500px;
+}
+.newsArticleHead>figure>figcaption{
+    width: 500px;
+    color: rgb(82, 82, 82);
+    text-align: justify;
+}
+.newsArticleHead>p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    text-align: justify;
+    width: 500px;
+}
