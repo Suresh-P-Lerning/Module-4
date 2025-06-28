@@ -1,12 +1,24 @@
-nav>ul>li{
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: rgb(23, 22, 56);    
+nav>ul{
+    display: flex;
+}
+nav li{    
+    list-style: none;   
 }
 li>a{
     text-decoration: none;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    background-color: rgb(23, 22, 56); 
+    padding: 10px 20px; 
+}
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    margin-left: -30px;
+    margin-top: 18px;
+}
+nav li:hover > .dropdown{
+    display: block;
 }
 .newsArticleHead>h1{
     font-size: 45px;
@@ -29,3 +41,18 @@ form>label{
     display: block;
     margin-bottom: 10px;
 }
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+table > caption{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(22, 10, 68);
+    padding: 10px;
+}
+
